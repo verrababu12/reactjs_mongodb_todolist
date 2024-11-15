@@ -1,0 +1,24 @@
+POST http://localhost:3001/api/todos
+Content-Type: application/json
+
+{
+    "text":"Learn ReactJS"
+}
+
+
+###
+
+GET http://localhost:3001/api/todos
+
+
+###
+
+PUT http://localhost:3001/api/todos/6734b66685809f688a4a9288
+Content-Type: application/json
+
+{
+    "text":"Learn CSSSS"
+}
+
+###
+DELETE http://localhost:3001/api/todos/6734b66685809f688a4a9288

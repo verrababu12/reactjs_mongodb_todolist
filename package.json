@@ -1,7 +1,7 @@
 {
   "name": "mern_todo_list_using_nodejs_reactjs_mongodb",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
